@@ -7,6 +7,7 @@ const app         = express();
 
 const tweetsApi  = require('./api/tweets');
 const db         = require('./lib/db');
+const _ = require('underscore');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));

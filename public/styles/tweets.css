@@ -1,0 +1,63 @@
+.eachTweet:hover {
+border: 2px solid #484a4c;
+ -webkit-filter: saturate(2);
+}
+.eachTweet{
+  background-color:white;
+  height:180px;
+  margin:2em;
+  border-radius: 8px;
+  border: 2px solid #bccae0;
+}
+.head{
+background-color:#eee;
+border-top-right-radius:5px;
+border-top-left-radius: 5px;
+height: 50px;
+padding:6px;
+}
+.pic{
+  width:40px;
+  height:40px;
+   border-radius: 10px;
+   float:left;
+   margin-right:5px;
+}
+.name{
+  margin:0;
+  color:#484a4c;
+  float:left;
+}
+ .user-name{
+color:lightgrey;
+float:right;
+  }
+.message{
+  padding-bottom: 20px;
+  margin:0;
+  height:75px;
+}
+.message p{
+  color:#484a4c;
+  max-width: 90%;
+  overflow-wrap: break-word;
+  margin:2px;
+}
+.foot{
+ border-top: 2px solid #eee;
+ color:lightgrey;
+
+}
+.time{
+float:left;
+color:#484a4c;
+margin:2px;
+}
+.buttons{
+  max-height: 50px;
+  max-width: 80px;
+  margin:10px 0 10px 0;
+  float:right;
+  display: none;
+}
+

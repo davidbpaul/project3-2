@@ -1,0 +1,28 @@
+.new-tweet{
+  background-color: #eee;
+  height:155px;
+  margin:auto;
+  margin:2em;
+  border-radius: 8px;
+  border: 2px solid #bccae0;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.new-tweet h2{
+  border-bottom: 1px solid #484a4c;
+  color:#484a4c;
+  margin-top: 0;
+}
+.new-tweet textarea{
+  width:100%;
+  margin:auto;
+  padding:5px;
+}
+
+ .new-tweet .counter{
+float:right;
+}
+.hilighted{
+  color:red;
+}
