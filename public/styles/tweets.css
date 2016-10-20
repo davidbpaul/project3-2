@@ -19,9 +19,9 @@ padding:6px;
 .pic{
   width:40px;
   height:40px;
-   border-radius: 10px;
-   float:left;
-   margin-right:5px;
+  border-radius: 10px;
+  float:left;
+  margin-right:5px;
 }
 .name{
   margin:0;
@@ -29,8 +29,8 @@ padding:6px;
   float:left;
 }
  .user-name{
-color:lightgrey;
-float:right;
+  color:lightgrey;
+  float:right;
   }
 .message{
   padding-bottom: 20px;
@@ -44,14 +44,13 @@ float:right;
   margin:2px;
 }
 .foot{
- border-top: 2px solid #eee;
- color:lightgrey;
-
+  border-top: 2px solid #eee;
+  color:lightgrey;
 }
 .time{
-float:left;
-color:#484a4c;
-margin:2px;
+  float:left;
+  color:#484a4c;
+  margin:2px;
 }
 .buttons{
   max-height: 50px;

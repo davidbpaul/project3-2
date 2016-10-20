@@ -7,10 +7,10 @@
   z-index: 1;
 }
 #nav-bar .header{
- color:#e8fdff;
- font-size: 200%;
-line-height: 250%;
-float:left;
+  color:#e8fdff;
+  font-size: 200%;
+  line-height: 250%;
+  float:left;
 
 }
 #nav-bar .logo{

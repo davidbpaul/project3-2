@@ -16,6 +16,6 @@ $(document).ready(function(){
     $('.eachTweet').removeClass('button')
   }
   $("form").on("submit", function (ev) {
-     $counter.html(140);
+    $counter.html(140);
   });
 });

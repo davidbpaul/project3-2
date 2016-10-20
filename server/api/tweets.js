@@ -11,8 +11,6 @@ module.exports = function(db) {
     let tweets = db.getTweets((tweets)=>{
       return res.json(tweets)
     });
-    // simulate delay
-
   });
 
   tweets.post("/", function(req, res) {
@@ -20,7 +18,6 @@ module.exports = function(db) {
       res.status(400);
       return res.send("{'error': 'invalid request'}\n");
     }
-
     const user = req.body.user ? req.body.user : User.generateRandomUser();
     const tweet = {
       user: user,
@@ -32,7 +29,5 @@ module.exports = function(db) {
     db.saveTweet(tweet);
     return res.send();
   });
-
   return tweets;
-
 }
